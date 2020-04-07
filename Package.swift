@@ -25,9 +25,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "DZNEmptyDataSet",
-            path: "Source",
-            sources: ["Source/UIScrollView+EmptyDataSet.h", "Source/UIScrollView+EmptyDataSet.m"]//,
-            //publicHeadersPath: "Source"
+            path: ".",
+            sources: ["Source"],
+            publicHeadersPath: "Source"
         )
     ]
 )
