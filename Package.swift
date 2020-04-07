@@ -27,7 +27,7 @@ let package = Package(
             name: "DZNEmptyDataSet",
             dependencies: [],
             path: ".",
-            sources: ["Source"],
+            sources: ["Classes", "Source/**/*.{h,m}"],
             publicHeadersPath: "Source"
         )
     ]
